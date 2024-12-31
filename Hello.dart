@@ -16,6 +16,15 @@ void dsType() {
 
   var underNum = 0.5;
   print(underNum.floor());
+
+  var myListAlpha = ["A", "V", "C", 10, 20, 50];
+  print(myListAlpha);
+  print(myListAlpha[2]);
+
+  print("my num is: ${underNum.floor()} ");
+  var errorMessage = "uxh uxh, thesxre a bunxh of txypos";
+  String updatedMessage = errorMessage.replaceAll("x", " ");
+  print(updatedMessage);
 }
 
 void main() {
