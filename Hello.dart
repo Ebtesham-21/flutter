@@ -33,6 +33,7 @@ void main() {
   print(1 / 1);
   print(3 * 5);
   print(10 / 0);
+  print("Hello")
 //   avasd
 //     asdsadsa
   print(pow(2, 4));
